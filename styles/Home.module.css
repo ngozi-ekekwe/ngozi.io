@@ -7,6 +7,12 @@
   align-items: center;
 }
 
+.banner {
+  width: 100%;
+  height: 10px;
+  background-image: linear-gradient(to right, #e3ffe7, #d9e7ff);
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
