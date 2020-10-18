@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
-      <div className={styles.banner}></div>
+      <a href="#" id="skip-link" role="button">Skip to Navigation</a>
       <div className={styles.container}>
         <Head>
           <title>
@@ -20,6 +20,7 @@ export default function Home() {
         <Header />
         <main className={styles.main}>
           <Profile />
+          main
         </main>
         <Footer />
       </div>
