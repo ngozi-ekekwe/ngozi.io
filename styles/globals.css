@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+#skip-link {
+  position: fixed;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +17,27 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#skip-link {
+  top: -4em;
+  z-index: 1001;
+  color: blue;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 8px 15px;
+  font-size: 14.5px;
+  position: absolute;
+  -webkit-transition: top 0.2s;
+  transition: top 0.2s;
+  border: 1px solid blue;
+  border-bottom-right-radius: 3px;
+}
+
+#skip-link:focus {
+  top: 0;
+  left: 0;
+  outline: none;
 }
