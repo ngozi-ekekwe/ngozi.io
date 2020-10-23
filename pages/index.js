@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Fragment } from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
@@ -26,7 +26,7 @@ export default function Home() {
         <Projects />
         <Contact />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </Fragment>
   );
 }

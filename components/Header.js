@@ -26,7 +26,7 @@ export default function Header() {
         aria-label="Logo, go to homepage"
         className={styles.header_logo}
       >
-        <span className={styles.header_logo__colored}>ngozi.io</span>
+        <span className={styles.header_logo__colored}>NGOZI</span>
       </a>
       <button
         type="button"

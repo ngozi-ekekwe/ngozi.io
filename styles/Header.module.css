@@ -20,13 +20,15 @@
 .header_logo span {
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+  color: white;
+  font-weight: bold
 }
 
 .header_logo__colored {
   padding: 0.2em;
   font-weight: bold;
-  background: linear-gradient(0.2turn, #fa6400, #f18543, #476098);
+  color: white;
+  font-weight: bold
 }
 
 .menu__toggle {
@@ -41,7 +43,7 @@
 .menu__toggle span {
   width: 2rem;
   height: 2px;
-  background-color: #ee59a8;
+  background-color: white;
   display: block;
   margin: 4px auto;
   transition: all 0.1s ease-in-out;
